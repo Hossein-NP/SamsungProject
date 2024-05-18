@@ -1,0 +1,17 @@
+/*
+Fonts
+*/
+@font-face {
+  font-family: "samsungsharpsans bold";
+  src: url("samsungsharpsans-bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "samsungsharpsans medium";
+  src: url("samsungsharpsans-medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "samsungsharpsans sans";
+  src: url("samsungsharpsans.otf") format("otf");
+}
