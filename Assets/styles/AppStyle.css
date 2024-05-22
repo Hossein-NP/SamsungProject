@@ -1,0 +1,86 @@
+/*
+Reset Style
+*/
+:root {
+  --black: #000;
+  --dark-36: #363636;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*10px*/
+}
+
+* , *::after , *::before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: "samsungsharpsans medium";
+}
+
+/*
+Components
+*/
+.df-verticla-align {
+  display: flex;
+  align-items: center;
+}
+.df-horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+.df-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*
+==========
+Main
+==========
+*/
+
+
+/*
+==========
+Main >> Accordion Section
+==========
+*/
+.accordion {
+
+}
+.accordion_title {
+  
+}
+.accordion-title_icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  border: 2px solid var(--black) ;
+  margin-right: 1rem;
+}
+.bi-chevron-down {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  color: var(--black);
+}
+.acc_title {
+  font-weight: 700;
+  font-family: "samsungsharpsans sans";
+  color: var(--black);
+  font-size: 1.5rem;
+}
+.accordion_caption {
+
+}
+.acc_caption {
+
+}
