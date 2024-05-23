@@ -3,15 +3,15 @@ Fonts
 */
 @font-face {
   font-family: "samsungsharpsans bold";
-  src: url("samsungsharpsans-bold.otf") format("otf");
+  src: url("samsungsharpsans-bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "samsungsharpsans medium";
-  src: url("samsungsharpsans-medium.otf") format("otf");
+  src: url("samsungsharpsans-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "samsungsharpsans sans";
-  src: url("samsungsharpsans.otf") format("otf");
+  src: url("samsungsharpsans-medium.ttf") format("truetype");
 }

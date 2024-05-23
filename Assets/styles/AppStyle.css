@@ -4,6 +4,7 @@ Reset Style
 :root {
   --black: #000;
   --dark-36: #363636;
+  --white: #fff;
 }
 
 html {
@@ -37,6 +38,13 @@ Components
   align-items: center;
   justify-content: center;
 }
+.transi-300_all {
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
 /*
 ==========
 Main
@@ -50,32 +58,59 @@ Main >> Accordion Section
 ==========
 */
 .accordion {
-
+ background-color: rebeccapurple;
+ width: 100%;
 }
 .accordion_title {
-  
+  margin-bottom: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 3rem;
+  background-color: gold;
+
 }
-.accordion-title_icon {
-  width: 1.5rem;
-  height: 1.5rem;
+.accordion_title-icons {
+  width: 2rem;
+  height: 2rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   border: 2px solid var(--black) ;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
+  
+  
 }
-.bi-chevron-down {
-  display: block;
-  width: 0.8rem;
-  height: 0.8rem;
-  color: var(--black);
+.ac_icons {
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+  display: inline-block !important;
+  font-family: "samsungsharpsans sans" !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.7rem !important;
+  vertical-align: 0.1rem !important;
+}
+/* when client click on the accordion title >> apply by js */
+.bg-black {
+  background-color: var(--black);
+}
+.ac_icons-anime {
+  color: var(--white);
+  transform: rotatez(180deg);
+  -webkit-transform: rotatez(180deg);
+  -moz-transform: rotatez(180deg);
+  -ms-transform: rotatez(180deg);
+  -o-transform: rotatez(180deg);
 }
 .acc_title {
   font-weight: 700;
   font-family: "samsungsharpsans sans";
-  color: var(--black);
+  color: var(--dark-36);
   font-size: 1.5rem;
 }
 .accordion_caption {
