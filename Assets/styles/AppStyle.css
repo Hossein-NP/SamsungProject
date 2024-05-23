@@ -39,11 +39,11 @@ Components
   justify-content: center;
 }
 .transi-300_all {
-  transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
+  transition: all 120ms ease-in-out;
+  -webkit-transition: all 120ms ease-in-out;
+  -moz-transition: all 120ms ease-in-out;
+  -ms-transition: all 120ms ease-in-out;
+  -o-transition: all 120ms ease-in-out;
 }
 /*
 ==========
@@ -79,9 +79,7 @@ Main >> Accordion Section
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   border: 2px solid var(--black) ;
-  margin-right: 1.5rem;
-  
-  
+  margin-right: 1.2rem;
 }
 .ac_icons {
   width: 1.6rem !important;
@@ -113,9 +111,9 @@ Main >> Accordion Section
   color: var(--dark-36);
   font-size: 1.5rem;
 }
-.accordion_caption {
+.accordion_captions {
 
 }
-.acc_caption {
+.accodrion_caption {
 
 }
