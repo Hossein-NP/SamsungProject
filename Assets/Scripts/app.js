@@ -43,7 +43,6 @@ SHOWMORE[0].addEventListener("click" , function() {
     ACCAPTIONHIDE[0].classList.add("accordion_caption-more-showhide");
     SHOWMORE[0].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[1].addEventListener("click" , function() {
@@ -55,7 +54,6 @@ SHOWMORE[1].addEventListener("click" , function() {
     ACCAPTIONHIDE[1].classList.add("accordion_caption-more-showhide");
     SHOWMORE[1].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[2].addEventListener("click" , function() {
@@ -67,7 +65,6 @@ SHOWMORE[2].addEventListener("click" , function() {
     ACCAPTIONHIDE[2].classList.add("accordion_caption-more-showhide");
     SHOWMORE[2].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[3].addEventListener("click" , function() {
@@ -79,7 +76,6 @@ SHOWMORE[3].addEventListener("click" , function() {
     ACCAPTIONHIDE[3].classList.add("accordion_caption-more-showhide");
     SHOWMORE[3].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[4].addEventListener("click" , function() {
@@ -91,7 +87,6 @@ SHOWMORE[4].addEventListener("click" , function() {
     ACCAPTIONHIDE[4].classList.add("accordion_caption-more-showhide");
     SHOWMORE[4].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[5].addEventListener("click" , function() {
@@ -103,7 +98,6 @@ SHOWMORE[5].addEventListener("click" , function() {
     ACCAPTIONHIDE[5].classList.add("accordion_caption-more-showhide");
     SHOWMORE[5].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[6].addEventListener("click" , function() {
@@ -115,7 +109,6 @@ SHOWMORE[6].addEventListener("click" , function() {
     ACCAPTIONHIDE[6].classList.add("accordion_caption-more-showhide");
     SHOWMORE[6].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[7].addEventListener("click" , function() {
@@ -127,7 +120,6 @@ SHOWMORE[7].addEventListener("click" , function() {
     ACCAPTIONHIDE[7].classList.add("accordion_caption-more-showhide");
     SHOWMORE[7].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[8].addEventListener("click" , function() {
@@ -139,7 +131,6 @@ SHOWMORE[8].addEventListener("click" , function() {
     ACCAPTIONHIDE[8].classList.add("accordion_caption-more-showhide");
     SHOWMORE[8].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[9].addEventListener("click" , function() {
@@ -151,7 +142,6 @@ SHOWMORE[9].addEventListener("click" , function() {
     ACCAPTIONHIDE[9].classList.add("accordion_caption-more-showhide");
     SHOWMORE[9].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[10].addEventListener("click" , function() {
@@ -163,7 +153,6 @@ SHOWMORE[10].addEventListener("click" , function() {
     ACCAPTIONHIDE[10].classList.add("accordion_caption-more-showhide");
     SHOWMORE[10].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[11].addEventListener("click" , function() {
@@ -175,7 +164,6 @@ SHOWMORE[11].addEventListener("click" , function() {
     ACCAPTIONHIDE[11].classList.add("accordion_caption-more-showhide");
     SHOWMORE[11].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[12].addEventListener("click" , function() {
@@ -187,7 +175,6 @@ SHOWMORE[12].addEventListener("click" , function() {
     ACCAPTIONHIDE[12].classList.add("accordion_caption-more-showhide");
     SHOWMORE[12].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[13].addEventListener("click" , function() {
@@ -199,7 +186,6 @@ SHOWMORE[13].addEventListener("click" , function() {
     ACCAPTIONHIDE[13].classList.add("accordion_caption-more-showhide");
     SHOWMORE[13].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[14].addEventListener("click" , function() {
@@ -211,7 +197,6 @@ SHOWMORE[14].addEventListener("click" , function() {
     ACCAPTIONHIDE[14].classList.add("accordion_caption-more-showhide");
     SHOWMORE[14].textContent = "Show Less";
   }
-  
 })
 
 SHOWMORE[15].addEventListener("click" , function() {
@@ -223,5 +208,4 @@ SHOWMORE[15].addEventListener("click" , function() {
     ACCAPTIONHIDE[15].classList.add("accordion_caption-more-showhide");
     SHOWMORE[15].textContent = "Show Less";
   }
-  
 })
