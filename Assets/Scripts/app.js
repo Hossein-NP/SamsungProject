@@ -209,3 +209,77 @@ SHOWMORE[15].addEventListener("click" , function() {
     SHOWMORE[15].textContent = "Show Less";
   }
 })
+
+/*
+==========
+Footer >> Footer middle Section
+==========
+*/
+const footerAccTitle = document.querySelectorAll(".footer-acc-titles");
+const footerAccTitleIcons = document.querySelectorAll(".ftr-acc-icon");
+const footerAccCaptionWrapper = document.querySelectorAll(".footer-acc-caption_wrapper");
+
+footerAccTitle[0].addEventListener("click" , function() {
+  footerAccCaptionWrapper[0].classList.toggle("ftr-acc-caption_wrap1--open");
+  footerAccTitleIcons[0].classList.toggle("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[1].classList.remove("ftr-acc-caption_wrap2--open");
+  footerAccTitleIcons[1].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[2].classList.remove("ftr-acc-caption_wrap3--open");
+  footerAccTitleIcons[2].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[3].classList.remove("ftr-acc-caption_wrap4--open");
+  footerAccTitleIcons[3].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[4].classList.remove("ftr-acc-caption_wrap5--open");
+  footerAccTitleIcons[4].classList.remove("ftr-acc-icon--rotate");
+})
+
+footerAccTitle[1].addEventListener("click" , function() {
+  footerAccCaptionWrapper[1].classList.toggle("ftr-acc-caption_wrap2--open");
+  footerAccTitleIcons[1].classList.toggle("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
+  footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[2].classList.remove("ftr-acc-caption_wrap3--open");
+  footerAccTitleIcons[2].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[3].classList.remove("ftr-acc-caption_wrap4--open");
+  footerAccTitleIcons[3].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[4].classList.remove("ftr-acc-caption_wrap5--open");
+  footerAccTitleIcons[4].classList.remove("ftr-acc-icon--rotate");
+})
+
+footerAccTitle[2].addEventListener("click" , function() {
+  footerAccCaptionWrapper[2].classList.toggle("ftr-acc-caption_wrap3--open");
+  footerAccTitleIcons[2].classList.toggle("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
+  footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[1].classList.remove("ftr-acc-caption_wrap2--open");
+  footerAccTitleIcons[1].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[3].classList.remove("ftr-acc-caption_wrap4--open");
+  footerAccTitleIcons[3].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[4].classList.remove("ftr-acc-caption_wrap5--open");
+  footerAccTitleIcons[4].classList.remove("ftr-acc-icon--rotate");
+})
+
+footerAccTitle[3].addEventListener("click" , function() {
+  footerAccCaptionWrapper[3].classList.toggle("ftr-acc-caption_wrap4--open");
+  footerAccTitleIcons[3].classList.toggle("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
+  footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[1].classList.remove("ftr-acc-caption_wrap2--open");
+  footerAccTitleIcons[1].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[2].classList.remove("ftr-acc-captionremove--open");
+  footerAccTitleIcons[2].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[4].classList.remove("ftr-acc-caption_wrap5--open");
+  footerAccTitleIcons[4].classList.remove("ftr-acc-icon--rotate");
+})
+
+footerAccTitle[4].addEventListener("click" , function() {
+  footerAccCaptionWrapper[4].classList.toggle("ftr-acc-caption_wrap5--open");
+  footerAccTitleIcons[4].classList.toggle("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
+  footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[1].classList.remove("ftr-acc-caption_wrap2--open");
+  footerAccTitleIcons[1].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[3].classList.remove("ftr-acc-caption_wrap4--open");
+  footerAccTitleIcons[3].classList.remove("ftr-acc-icon--rotate");
+  footerAccCaptionWrapper[2].classList.remove("ftr-acc-caption_wrap3--open");
+  footerAccTitleIcons[2].classList.remove("ftr-acc-icon--rotate");
+})
