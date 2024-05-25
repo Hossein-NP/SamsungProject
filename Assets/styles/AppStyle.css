@@ -83,13 +83,12 @@ Components
 .fs-19 {
   font-size: 1.9rem;
 }
+
 /*
 ==========
 Main
 ==========
-*/
-
-
+*4
 /*
 ==========
 Main >> Accordion Section
@@ -147,12 +146,12 @@ Main >> Accordion Section
   font-size: 1.5rem;
 }
 .accordion_captions {
-  height: 0;
-  overflow: hidden;
-}
-.accordion_captions--open {
   height: auto;
   overflow: none;
+}
+.accordion_captions--close {
+  height: 0;
+  overflow: hidden;
 }
 .accordion_caption , .accordion_caption-lst {
   width: 98%;
@@ -221,9 +220,13 @@ Footer >> Footer Top Section
   border-top: 1px solid var(--light-gray);
 }
 .footer-section-top {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
+  min-width: 32rem;
+  max-width: 69rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 .ftr-section-top_title {
   color: var(--dark-25);
@@ -253,6 +256,11 @@ Footer >> Footer middle Section
 .footer-acc-titles {
   justify-content: space-between;
   cursor: pointer;
+  border-bottom: 1px solid var(--light-gray);
+}
+.footer-acc-titles--border {
+  border-bottom: 1px dashed var(--black);
+  border-top: 1px dashed var(--black);
 }
 .footer-acc-title {
   font-weight: var(--font-weight-7);
@@ -277,23 +285,23 @@ Footer >> Footer middle Section
   height: 33rem;
 }
 .ftr-acc-caption_wrap1--open {
-  height: 62.5rem;
+  height: 64.5rem;
   overflow: none;
 }
 .ftr-acc-caption_wrap2--open {
-  height: 33rem;
+  height: 34rem;
   overflow: none;
 }
 .ftr-acc-caption_wrap3--open {
-  height: 33rem;
+  height: 34rem;
   overflow: none;
 }
 .ftr-acc-caption_wrap4--open {
-  height: 33rem;
+  height: 34rem;
   overflow: none;
 }
 .ftr-acc-caption_wrap5--open {
-  height: 33rem;
+  height: 34rem;
   overflow: none;
 }
 .footer-acc_items {

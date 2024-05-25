@@ -14,6 +14,11 @@ Media Query
   .container {
     width: 72rem;
   }
+  .footer-section-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 @media all and (min-width:992px) {
   .container {
