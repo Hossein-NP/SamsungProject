@@ -9,11 +9,16 @@ Reset Style
   --white: #fff;
   --blue: #29a6ff;
   --blue-dark: #1428a0;
+  --font-size-6: 0.6rem;
+  --font-size-8: 0.8rem;
+  --font-size-10: 1rem;
+  --font-size-12: 1.2rem;
   --font-size-14: 1.4rem;
   --font-size-17: 1.7rem;
   --font-size-16: 1.6rem;
   --font-weight-7: 700;
   --font-weight-4: 400;
+  --font-samsung-one-400: "samsungOne-400";
 }
 
 html {
@@ -40,6 +45,9 @@ Components
 */
 .df {
   display: flex;
+}
+.db {
+  display: block;
 }
 .df-verticla-align {
   display: flex;
@@ -103,6 +111,12 @@ Components
 }
 .mb-10 {
   margin-bottom: 1rem;
+}
+.mt-20 {
+  margin-top: 2rem;
+}
+.mb-20 {
+  margin-bottom: 2rem;
 }
 .fs-19 {
   font-size: 1.9rem;
@@ -250,7 +264,6 @@ Footer >> Footer Top Section
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
-  min-width: 32rem;
   max-width: 69rem;
   margin-right: auto;
   margin-left: auto;
@@ -388,4 +401,71 @@ Footer >> footer middle section For Tablet Screen and Up
 }
 .footer-section_items {
   width: 100%;
+}
+/*
+==========
+Footer >> copyright
+==========
+*/
+.footer-copyright-wrapper {
+  
+}
+.footer-copyright {
+  font-family: var(--font-samsung-one-400),serif,sans-serif;
+  font-size: var(--font-size-16);
+}
+.footer-language {
+  font-size: var(--font-size-10);
+  color: var(--black);
+  font-weight: var(--font-weight-7);
+  font-family: var(--font-samsung-one-400),serif,sans-serif;
+}
+/*
+==========
+Footer >> final(left side)
+==========
+*/
+
+.footer-final-section {
+  justify-content: space-between;
+}
+.footer-final-section__left {
+}
+.footer-language-final {
+  font-size: var(--font-size-6);
+  color: var(--black);
+  font-weight: var(--font-weight-7);
+  font-family: var(--font-samsung-one-400),serif,sans-serif;
+  border-right: 1px solid var(--light-gray);
+}
+.footer-final__items-left {
+
+}
+.footer-final__item-left {
+  font-size: var(--font-size-6);
+  color: var(--black);
+}
+.footer-final__item-left:last-of-type {
+  margin-right: 0;
+}
+.footer-final__link-left {
+  color: var(--dark-36);
+  font-family: var(--font-samsung-one-400) serif;
+}
+/*
+==========
+Footer >> final(right side)
+==========
+*/
+.footer-final__title {
+  font-size: var(--font-size-6);
+  font-family: var(--font-samsung-one-400) serif;
+}
+.footer-final__social {
+
+}
+.footer-final__socialitems {
+
+}
+.footer-final__socialitem {
 }
