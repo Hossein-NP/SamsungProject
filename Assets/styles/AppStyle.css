@@ -38,6 +38,9 @@ body {
 /*
 Components
 */
+.df {
+  display: flex;
+}
 .df-verticla-align {
   display: flex;
   align-items: center;
@@ -50,6 +53,9 @@ Components
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.df-space-btwn {
+  justify-content: space-between;
 }
 .transi-120_all {
   transition: all 120ms ease-in-out;
@@ -250,6 +256,14 @@ Footer >> Footer Top Section
 Footer >> Footer middle Section
 ==========
 */
+.breakLine {
+  background-color: var(--light-gray);
+  display: block;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0.1rem;
+}
 .footer-section-middle {
 
 }
@@ -319,4 +333,35 @@ Footer >> Footer middle Section
 .footer-acc_link:hover {
   color: var(--blue-dark);
   border-bottom: 1px solid var(--blue-dark);
+}
+/*
+==========
+Footer >> footer middle section For Tablet Screen and Up
+==========
+*/
+.footer-section-links_wrapper {
+  
+}
+.footer-section-links:nth-child(2) {
+  border-left: 1px solid var(--light-gray);
+  padding-left: 2rem;
+}
+.footer-section-links:nth-child(3) {
+  border-left: 1px solid var(--light-gray);
+  padding-left: 2rem;
+}
+.footer-section-links:nth-child(4) {
+  border-left: 1px solid var(--light-gray);
+  padding-left: 2rem;
+}
+.footer-section-links {
+}
+.footer-section-links_title {
+  font-weight: var(--font-weight-7);
+  color: var(--black);
+  font-size: var(--font-size-19);
+  margin-top: 1rem;
+}
+.footer-section_items {
+  width: 100%;
 }

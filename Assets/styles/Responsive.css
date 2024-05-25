@@ -19,6 +19,9 @@ Media Query
     align-items: center;
     justify-content: space-between;
   }
+  .footer-section-middle {
+    display: none;
+  }
 }
 @media all and (min-width:992px) {
   .container {
