@@ -221,11 +221,12 @@ const footerAccCaptionWrapper = document.querySelectorAll(".footer-acc-caption_w
 
 footerAccTitle[0].addEventListener("click" , function() {
   footerAccCaptionWrapper[0].classList.toggle("ftr-acc-caption_wrap1--open");
-  footerAccCaptionWrapper[0].classList.add("footer-acc-titles--border");
-  footerAccCaptionWrapper[1].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[2].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[3].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[4].classList.remove("footer-acc-titles--border");
+  footerAccTitle[0].classList.add("footer-acc-titles--border");
+  footerAccTitle[0].classList.remove("footer-acc-titles--bordernone");
+  footerAccTitle[1].classList.remove("footer-acc-titles--border");
+  footerAccTitle[2].classList.remove("footer-acc-titles--border");
+  footerAccTitle[3].classList.remove("footer-acc-titles--border");
+  footerAccTitle[4].classList.remove("footer-acc-titles--border");
   footerAccTitleIcons[0].classList.toggle("ftr-acc-icon--rotate");
   footerAccCaptionWrapper[1].classList.remove("ftr-acc-caption_wrap2--open");
   footerAccTitleIcons[1].classList.remove("ftr-acc-icon--rotate");
@@ -239,11 +240,12 @@ footerAccTitle[0].addEventListener("click" , function() {
 
 footerAccTitle[1].addEventListener("click" , function() {
   footerAccCaptionWrapper[1].classList.toggle("ftr-acc-caption_wrap2--open");
-  footerAccCaptionWrapper[1].classList.add("footer-acc-titles--border");
-  footerAccCaptionWrapper[0].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[2].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[3].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[4].classList.remove("footer-acc-titles--border");
+  footerAccTitle[1].classList.add("footer-acc-titles--border");
+  footerAccTitle[1].classList.remove("footer-acc-titles--bordernone");
+  footerAccTitle[0].classList.remove("footer-acc-titles--border");
+  footerAccTitle[2].classList.remove("footer-acc-titles--border");
+  footerAccTitle[3].classList.remove("footer-acc-titles--border");
+  footerAccTitle[4].classList.remove("footer-acc-titles--border");
   footerAccTitleIcons[1].classList.toggle("ftr-acc-icon--rotate");
   footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
   footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
@@ -257,11 +259,12 @@ footerAccTitle[1].addEventListener("click" , function() {
 
 footerAccTitle[2].addEventListener("click" , function() {
   footerAccCaptionWrapper[2].classList.toggle("ftr-acc-caption_wrap3--open");
-  footerAccCaptionWrapper[2].classList.add("footer-acc-titles--border");
-  footerAccCaptionWrapper[1].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[0].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[3].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[4].classList.remove("footer-acc-titles--border");
+  footerAccTitle[2].classList.add("footer-acc-titles--border");
+  footerAccTitle[2].classList.remove("footer-acc-titles--bordernone");
+  footerAccTitle[1].classList.remove("footer-acc-titles--border");
+  footerAccTitle[0].classList.remove("footer-acc-titles--border");
+  footerAccTitle[3].classList.remove("footer-acc-titles--border");
+  footerAccTitle[4].classList.remove("footer-acc-titles--border");
   footerAccTitleIcons[2].classList.toggle("ftr-acc-icon--rotate");
   footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
   footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
@@ -275,11 +278,12 @@ footerAccTitle[2].addEventListener("click" , function() {
 
 footerAccTitle[3].addEventListener("click" , function() {
   footerAccCaptionWrapper[3].classList.toggle("ftr-acc-caption_wrap4--open");
-  footerAccCaptionWrapper[3].classList.add("footer-acc-titles--border");
-  footerAccCaptionWrapper[1].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[2].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[0].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[4].classList.remove("footer-acc-titles--border");
+  footerAccTitle[3].classList.add("footer-acc-titles--border");
+  footerAccTitle[3].classList.remove("footer-acc-titles--bordernone");
+  footerAccTitle[1].classList.remove("footer-acc-titles--border");
+  footerAccTitle[2].classList.remove("footer-acc-titles--border");
+  footerAccTitle[0].classList.remove("footer-acc-titles--border");
+  footerAccTitle[4].classList.remove("footer-acc-titles--border");
   footerAccTitleIcons[3].classList.toggle("ftr-acc-icon--rotate");
   footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
   footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
@@ -293,11 +297,12 @@ footerAccTitle[3].addEventListener("click" , function() {
 
 footerAccTitle[4].addEventListener("click" , function() {
   footerAccCaptionWrapper[4].classList.toggle("ftr-acc-caption_wrap5--open");
-  footerAccCaptionWrapper[4].classList.add("footer-acc-titles--border");
-  footerAccCaptionWrapper[1].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[2].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[3].classList.remove("footer-acc-titles--border");
-  footerAccCaptionWrapper[0].classList.remove("footer-acc-titles--border");
+  footerAccTitle[4].classList.add("footer-acc-titles--border");
+  footerAccTitle[4].classList.remove("footer-acc-titles--bordernone");
+  footerAccTitle[1].classList.remove("footer-acc-titles--border");
+  footerAccTitle[2].classList.remove("footer-acc-titles--border");
+  footerAccTitle[3].classList.remove("footer-acc-titles--border");
+  footerAccTitle[0].classList.remove("footer-acc-titles--border");
   footerAccTitleIcons[4].classList.toggle("ftr-acc-icon--rotate");
   footerAccCaptionWrapper[0].classList.remove("ftr-acc-caption_wrap1--open");
   footerAccTitleIcons[0].classList.remove("ftr-acc-icon--rotate");
