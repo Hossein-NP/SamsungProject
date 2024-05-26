@@ -14,8 +14,10 @@ Reset Style
   --font-size-10: 1rem;
   --font-size-12: 1.2rem;
   --font-size-14: 1.4rem;
-  --font-size-17: 1.7rem;
+  --font-size-15: 1.5rem;
   --font-size-16: 1.6rem;
+  --font-size-17: 1.7rem;
+  --font-size-19: 1.9rem;
   --font-weight-7: 700;
   --font-weight-4: 400;
   --font-samsung-one-400: "samsungOne-400";
@@ -184,7 +186,7 @@ Main >> Accordion Section
   font-weight: 700;
   font-family: "samsungsharpsans sans";
   color: var(--dark-36);
-  font-size: 1.5rem;
+  font-size: var(--font-size-14);
 }
 .accordion_captions {
   height: auto;
@@ -272,6 +274,7 @@ Footer >> Footer Top Section
   color: var(--dark-25);
   font-family: "samsungsharpsans sans", serif ,Arial, Helvetica, sans-serif;
   font-weight: var(--font-weight-7);
+  font-size: var(--font-size-16);
 }
 .ftr-section-top_caption , .ftr-section-top_link {
   color: var(--dark-36);
@@ -316,7 +319,7 @@ Footer >> Footer middle Section
 .footer-acc-title {
   font-weight: var(--font-weight-7);
   color: var(--black);
-  font-size: var(--font-size-19);
+  font-size: var(--font-size-16);
 }
 .ftr-acc-icon {
  font-family: "SamsungOne",arial,sans-serif ,serif;
@@ -365,7 +368,7 @@ Footer >> Footer middle Section
 .footer-acc_link {
   color: var(--dark-36);
   font-family: "SamsungOne",arial,sans-serif ,serif;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-15);
 }
 .footer-acc_link:hover {
   color: var(--blue-dark);
@@ -445,7 +448,6 @@ Footer >> final(left side)
   flex-wrap: wrap;
   justify-content: space-evenly;
   line-height: 3rem;
-
 }
 .footer-final__item-left {
   font-size: var(--font-size-10);
@@ -472,6 +474,7 @@ Footer >> final(right side)
   height: 2rem;
   line-height: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .footer-final__social {
 
