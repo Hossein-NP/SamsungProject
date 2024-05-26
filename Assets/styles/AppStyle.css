@@ -298,7 +298,7 @@ Main >> search keyword Section
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
   background-color: var(--searchkey-box-bg);
-  min-width: 30rem;
+  min-width: 28rem;
   max-width: 40rem;
   margin-right: auto;
   margin-left: auto;
@@ -331,7 +331,7 @@ Main >> search keyword Section
   display: none;
 }
 .searchkey__tags-wrapper {
-  min-width: 30rem;
+  min-width: 28rem;
   max-width: 40rem;
   margin-right: auto;
   margin-left: auto;
