@@ -3,7 +3,10 @@ Media Query
 */
 @media all and (min-width:320px) and (max-width:574px) {
   .footer-copyright {
-    font-size: var(--font-size-14);
+    font-size: var(--font-size-10);
+  }
+  .breakLine-final {
+    display: none;
   }
 }
 @media all and (min-width:575px) {
@@ -36,6 +39,29 @@ Media Query
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .footer-final-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-final__link-left {
+    font-size: 0.6rem;
+  }
+  .footer-final-section_right {
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+  .footer-final__title {
+    margin-bottom: 0;
+    font-size: 0.6rem;
+  }
+  .footer-final__socialitems {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.2rem;
+  }
+  .footer-final__icons {
+    font-size: 1rem;
   }
 }
 @media all and (min-width:992px) {

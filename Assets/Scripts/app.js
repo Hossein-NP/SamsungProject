@@ -313,3 +313,46 @@ footerAccTitle[4].addEventListener("click" , function() {
   footerAccCaptionWrapper[2].classList.remove("ftr-acc-caption_wrap3--open");
   footerAccTitleIcons[2].classList.remove("ftr-acc-icon--rotate");
 })
+
+/*
+==========
+Footer >> final(right side >> social icons)
+==========
+*/
+const SOCIALICONS = document.querySelectorAll(".footer-final__socialitems");
+
+SOCIALICONS[0].addEventListener("click" , function() {
+  SOCIALICONS[0].classList.add("footer-final__socialitems--border");
+  SOCIALICONS[1].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[2].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[3].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[4].classList.remove("footer-final__socialitems--border");
+})
+SOCIALICONS[1].addEventListener("click" , function() {
+  SOCIALICONS[1].classList.add("footer-final__socialitems--border");
+  SOCIALICONS[0].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[2].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[3].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[4].classList.remove("footer-final__socialitems--border");
+})
+SOCIALICONS[2].addEventListener("click" , function() {
+  SOCIALICONS[2].classList.add("footer-final__socialitems--border");
+  SOCIALICONS[1].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[0].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[3].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[4].classList.remove("footer-final__socialitems--border");
+})
+SOCIALICONS[3].addEventListener("click" , function() {
+  SOCIALICONS[3].classList.add("footer-final__socialitems--border");
+  SOCIALICONS[1].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[2].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[0].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[4].classList.remove("footer-final__socialitems--border");
+})
+SOCIALICONS[4].addEventListener("click" , function() {
+  SOCIALICONS[4].classList.add("footer-final__socialitems--border");
+  SOCIALICONS[1].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[2].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[3].classList.remove("footer-final__socialitems--border");
+  SOCIALICONS[0].classList.remove("footer-final__socialitems--border");
+})
