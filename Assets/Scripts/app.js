@@ -9,15 +9,10 @@ Main
 Main >> search keyword Section
 ==========
 */
-// let clearIcon = true;
-// const CLEARSEARCH = document.querySelector(".searchkey__x-icon");
-// const SEARCHBOX = document.querySelector(".searchkey__input");
 
-// SEARCHBOX.addEventListener("click" , function() {
-//   if() {
+const CLEARSEARCH = document.getElementsByClassName(".searchkey__x-icon");
+const SEARCHBOX = document.getElementsByClassName(".searchkey__input");
 
-//   }
-// })
 
 /*
 ==========
