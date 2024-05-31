@@ -3,7 +3,102 @@
 Main
 ==========
 */
+/*
+==========
+Main >> explore stories Section
+==========
+*/
+const EXPSTORIESLINK = document.querySelectorAll(".explore-stories__link");
+const EXPSTORIESITEM = document.querySelectorAll(".explore-stories__item");
+const EXPSTORIESIMG = document.querySelectorAll(".explore-stories__img");
+const LEARNMORE = document.querySelectorAll(".explore-stories__link-learnMore");
 
+EXPSTORIESLINK[1].addEventListener("mouseenter",function(){
+  LEARNMORE[1].classList.add("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[1].classList.add("explore-stories__item--open");
+  LEARNMORE[0].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[0].classList.remove("explore-stories__item--open");
+  LEARNMORE[2].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[2].classList.remove("explore-stories__item--open");
+  LEARNMORE[3].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[3].classList.remove("explore-stories__item--open");
+  LEARNMORE[4].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[4].classList.remove("explore-stories__item--open");
+  EXPSTORIESIMG[3].classList.add("explore-stories__img--visible");
+  EXPSTORIESIMG[0].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[1].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[2].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[4].classList.remove("explore-stories__img--visible");
+})
+EXPSTORIESLINK[0].addEventListener("mouseenter",function(){
+  LEARNMORE[0].classList.add("explore-stories__link-learnMore--open");
+  EXPSTORIESIMG[4].classList.toggle("explore-stories__img--visible");
+  EXPSTORIESITEM[0].classList.add("explore-stories__item--open");
+  LEARNMORE[1].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[1].classList.remove("explore-stories__item--open");
+  LEARNMORE[2].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[2].classList.remove("explore-stories__item--open");
+  LEARNMORE[3].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[3].classList.remove("explore-stories__item--open");
+  LEARNMORE[4].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[4].classList.remove("explore-stories__item--open");
+  EXPSTORIESIMG[4].classList.add("explore-stories__img--visible");
+  EXPSTORIESIMG[0].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[1].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[2].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[3].classList.remove("explore-stories__img--visible");
+})
+EXPSTORIESLINK[2].addEventListener("mouseenter",function(){
+  LEARNMORE[2].classList.add("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[2].classList.add("explore-stories__item--open");
+  LEARNMORE[0].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[0].classList.remove("explore-stories__item--open");
+  LEARNMORE[1].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[1].classList.remove("explore-stories__item--open");
+  LEARNMORE[3].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[3].classList.remove("explore-stories__item--open");
+  LEARNMORE[4].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[4].classList.remove("explore-stories__item--open");
+  EXPSTORIESIMG[2].classList.add("explore-stories__img--visible");
+  EXPSTORIESIMG[0].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[1].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[3].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[4].classList.remove("explore-stories__img--visible");
+})
+EXPSTORIESLINK[3].addEventListener("mouseenter",function(){
+  LEARNMORE[3].classList.add("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[3].classList.add("explore-stories__item--open");
+  LEARNMORE[0].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[0].classList.remove("explore-stories__item--open");
+  LEARNMORE[2].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[2].classList.remove("explore-stories__item--open");
+  LEARNMORE[1].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[1].classList.remove("explore-stories__item--open");
+  LEARNMORE[4].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[4].classList.remove("explore-stories__item--open");
+  EXPSTORIESIMG[1].classList.add("explore-stories__img--visible");
+  EXPSTORIESIMG[0].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[3].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[2].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[4].classList.remove("explore-stories__img--visible");
+})
+EXPSTORIESLINK[4].addEventListener("mouseenter",function(){
+  LEARNMORE[4].classList.add("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[4].classList.add("explore-stories__item--open");
+  LEARNMORE[0].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[0].classList.remove("explore-stories__item--open");
+  LEARNMORE[2].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[2].classList.remove("explore-stories__item--open");
+  LEARNMORE[3].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[3].classList.remove("explore-stories__item--open");
+  LEARNMORE[1].classList.remove("explore-stories__link-learnMore--open");
+  EXPSTORIESITEM[1].classList.remove("explore-stories__item--open");
+  EXPSTORIESIMG[0].classList.add("explore-stories__img--visible");
+  EXPSTORIESIMG[3].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[1].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[2].classList.remove("explore-stories__img--visible");
+  EXPSTORIESIMG[4].classList.remove("explore-stories__img--visible");
+})
 /*
 ==========
 Main >> search keyword Section
