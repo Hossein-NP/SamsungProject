@@ -272,7 +272,7 @@ Main >> explore stories Section
 
 .explore-stories__link {
   cursor: pointer;
-  font-family: var(--font-samsung-sharpsans) , Arial, sans-serif;
+  font-family: var(--font-samsung-bold) , Arial, sans-serif;
   font-size: var(--font-size-24);
   font-weight: var(--font-weight-7);
   text-align: left;
@@ -323,21 +323,24 @@ Main >> explore stories Section
 Main >> explore stories Section for mobile
 ==========
 */
-.container-swiper {
+.container-swiper-wrapper {
   width: 100%;
   height: 72rem;
-  background-color: #252525;
-  overflow: hidden;
+  /* background-color: #252525; */
+  /* overflow: hidden; */
 }
-.container-swiper__wrapper {
+#container-swiper {
+  display: flex;
   height: 100%;
+  /* border: 1px solid red; */
 }
 .container-swiper__content-wrapper {
   height: 100%;
+  width: 100%;
 }
 .container-swiper__img-wrapper {
   height: 75%;
-  width: 70rem;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
@@ -361,10 +364,44 @@ Main >> explore stories Section for mobile
   object-fit: cover;
 }
 .container-swiper__content-link {
-
+  min-width: 20rem;
+  max-width: 38rem;
+  font-size: var(--font-size-23);
+ text-align: center;
+ color: var(--black);
+ font-family: var(--font-samsung-bold) , Arial, sans-serif;
+ font-weight: var(--font-weight-7);
 }
 .container-swiper__content-linkmore {
-
+  text-align: center;
+}
+.container-swiper__content-linkmore > a {
+  font-weight: var(--font-weight-7);
+  font-family: var(--font-samsung-sharpsans),Arial, sans-serif;
+  font-size: var(--font-size-14);
+  color: var(--black);
+  display: inline-block;
+  position: relative;
+}
+.container-swiper__content-linkmore > a::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0.2rem;
+  background-color: var(--black);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform-origin: center center;
+  transition: width 200ms ease-in-out;
+  -webkit-transition: width 200ms ease-in-out;
+  -moz-transition: width 200ms ease-in-out;
+  -ms-transition: width 200ms ease-in-out;
+  -o-transition: width 200ms ease-in-out;
+}
+.container-swiper__content-linkmore > a:hover::after{
+  width: 100%;
 }
 /*
 ==========

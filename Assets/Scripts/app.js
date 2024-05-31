@@ -5,6 +5,23 @@ Main
 */
 /*
 ==========
+Main >> explore stories Section for mobile
+==========
+*/
+let container_swiper_wrapper_width = document.getElementsByClassName("container-swiper-wrapper")[0].clientWidth;
+console.log(container_swiper_wrapper_width);
+let container_swiper_content_count = document.querySelectorAll(".container-swiper__content-wrapper");
+let container_swiper_width = document.getElementById("container-swiper").style.width=container_swiper_wrapper_width*(container_swiper_content_count.length)+'px';
+console.log(container_swiper_width);
+
+container_swiper_content_count.forEach(co_swip_count);
+function co_swip_count(item) {
+  item.style.width=container_swiper_wrapper_width+'px';
+}
+console.log(container_swiper_content_count)
+
+/*
+==========
 Main >> explore stories Section
 ==========
 */
